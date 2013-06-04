@@ -50,7 +50,7 @@
 #define kAlertButtonHeight       (NeedsLandscapePhoneTweaks ? 35 : 44)
 
 
-#define kAlertViewTitleFont             [UIFont boldSystemFontOfSize:20]
+#define kAlertViewTitleFont             [UIFont fontWithName:@"Helvetica-Bold" size:18]
 #define kAlertViewTitleTextColor        [UIColor colorWithWhite:244.0/255.0 alpha:1.0]
 #define kAlertViewTitleShadowColor      [UIColor blackColor]
 #define kAlertViewTitleShadowOffset     CGSizeMake(0, -1)
@@ -60,13 +60,15 @@
 #define kAlertViewMessageShadowColor    [UIColor blackColor]
 #define kAlertViewMessageShadowOffset   CGSizeMake(0, -1)
 
-#define kAlertViewButtonFont            [UIFont boldSystemFontOfSize:18]
+#define kAlertViewButtonFont            [UIFont fontWithName:@"Helvetica-Bold" size:15]
 #define kAlertViewButtonTextColor       [UIColor whiteColor]
 #define kAlertViewButtonShadowColor     [UIColor blackColor]
 #define kAlertViewButtonShadowOffset    CGSizeMake(0, -1)
 
-#define kAlertViewBackground            @"alert-window.png"
+#define kAlertViewBackground            @"bg-alertview.gif"
 #define kAlertViewBackgroundLandscape   @"alert-window-landscape.png"
 #define kAlertViewBackgroundCapHeight   38
+
+#define kAlertViewBlockBackgroundColor  [UIColor colorWithWhite:0.0 alpha:0.7f]
 
 #endif
