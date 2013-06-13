@@ -65,7 +65,7 @@
 #define kAlertViewButtonShadowColor     [UIColor blackColor]
 #define kAlertViewButtonShadowOffset    CGSizeMake(0, -1)
 
-#define kAlertViewBackground            @"bg-alertview.gif"
+#define kAlertViewBackground            @"alert-window.png"
 #define kAlertViewBackgroundLandscape   @"alert-window-landscape.png"
 #define kAlertViewBackgroundCapHeight   38
 
