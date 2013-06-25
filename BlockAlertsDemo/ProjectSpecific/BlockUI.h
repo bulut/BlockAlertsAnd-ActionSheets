@@ -62,7 +62,7 @@
 
 #define kAlertViewButtonFont            [UIFont fontWithName:@"Helvetica-Bold" size:15]
 #define kAlertViewButtonTextColor       [UIColor whiteColor]
-#define kAlertViewButtonShadowColor     [UIColor blackColor]
+#define kAlertViewButtonShadowColor     [UIColor colorWithRed:23.0/255.0 green:108.0/255.0 blue:149.0/255.0 alpha:1.0]
 #define kAlertViewButtonShadowOffset    CGSizeMake(0, -1)
 
 #define kAlertViewBackground            @"alert-window.png"
