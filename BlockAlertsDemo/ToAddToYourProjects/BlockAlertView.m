@@ -82,11 +82,13 @@ static UIFont *buttonFont = nil;
         [_view addSubview:labelView];
         [labelView release];
         
+        //_height += size.height + kAlertViewHeight;
         _height += size.height + kAlertViewBorder;
     }
     
     if (_message)
     {
+        
         CGSize size = [_message sizeWithFont:messageFont
                            constrainedToSize:CGSizeMake(frame.size.width-kAlertViewBorder*2, 1000)
                                lineBreakMode:NSLineBreakByWordWrapping];
@@ -305,7 +307,7 @@ static UIFont *buttonFont = nil;
         [_view addSubview:button];
         
         if (!isSecondButton)
-            _height += kAlertButtonHeight + kAlertViewBorder + 16;
+            _height += kAlertButtonHeight + kAlertViewHeight + 10;
         
         index++;
     }

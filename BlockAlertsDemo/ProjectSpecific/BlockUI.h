@@ -47,6 +47,7 @@
 
 #define kAlertViewBounce         20
 #define kAlertViewBorder         (NeedsLandscapePhoneTweaks ? 5 : 14)
+#define kAlertViewHeight         7   
 #define kAlertButtonHeight       (NeedsLandscapePhoneTweaks ? 35 : 44)
 
 
