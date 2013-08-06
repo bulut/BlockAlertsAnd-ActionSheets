@@ -82,8 +82,7 @@ static UIFont *buttonFont = nil;
         [_view addSubview:labelView];
         [labelView release];
         
-        //_height += size.height + kAlertViewHeight;
-        _height += size.height + kAlertViewBorder;
+        _height += size.height;
     }
     
     if (_message)
@@ -307,7 +306,7 @@ static UIFont *buttonFont = nil;
         [_view addSubview:button];
         
         if (!isSecondButton)
-            _height += kAlertButtonHeight + kAlertViewHeight + 10;
+            _height += kAlertButtonHeight + 10;
         
         index++;
     }
