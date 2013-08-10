@@ -327,10 +327,9 @@ static UIFont *buttonFont = nil;
         }
     }
     
-    
     CGRect frame = _view.frame;
     frame.origin.y = - _height;
-    frame.size.height = _height;
+    frame.size.height = _height + 15;
     _view.frame = frame;
     
     UIImageView *modalBackground = [[UIImageView alloc] initWithFrame:_view.bounds];
